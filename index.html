@@ -18,38 +18,38 @@
 </head>
 <body>
     <header class="header">
-        <div class="back true"><</div>
+        <div class="back true"><i class="fa-solid fa-arrow-left"></i></div>
         <img src="img/header.svg" alt="">
         <h1 class="title home">Ola,<br><span>Fares</span></h1>
     </header>
     <main>
-        <div id="home-route" class="">
+        <div id="home-route" class="current">
             <div class="card" id="requests">
                 <p>53</p>
                 <h6>Solicitações de Doação</h6>
             </div>
             <div class="card" id="quiz">
-
+                <i class="fa-solid fa-table-list"></i>
                 <h6>QUIZ</h6>
                 <div class="bg"></div>
             </div>
             <div class="card" id="campaigns">
 
-                <img src="img/hemonucleos_icon.svg" width="28px" alt="" >
+                <i class="fa-solid fa-tarp"></i>
                 <h6>Campanhas</h6>
             </div>
             <div class="card" id="certificates">
-                <img src="img/hemonucleos_icon.svg" width="28px" alt="" >
+                <i class="fa-solid fa-graduation-cap"></i>
                 <h6>Certificados</h6>
             </div>
             <div class="card" id="sponsors">
 
-                <img src="img/hemonucleos_icon.svg" width="28px" alt="" >
+                <i class="fa-solid fa-thumbs-up"></i>
                 <h6>Apoiadores</h6>
             </div>
         </div>
 
-        <div id="campaigns-route" class="current">
+        <div id="campaigns-route" class="">
             <div class="card">
                 <div class="info">
                     <h2>Nome da Campanha</h2>
@@ -81,32 +81,33 @@
     <ul class="navbar">
         <li>
             <button id="nav-sponsor" class="active" onclick="navigate('sponsors')">
-                <img src="img/apoiador_icon.svg" alt="" >
+                <i class="fa-solid fa-thumbs-up"></i>
             </button>
         </li>
         <li>
             <button id="nav-campaigns" class="inactive" onclick="navigate('campaigns')">
-                <img src="img/campanha_icon.svg" alt="" >
+                <i class="fa-solid fa-tarp"></i>
             </button>
         </li>
         <li>
             <button id="nav-home" class="inactive" onclick="navigate('home')">
-                <img src="img/logo.svg" alt="" >
+                <i class="fa-solid fa-heart-circle-bolt"></i>
             </button>
         </li>
         <li>
             <button id="nav-quiz" class="inactive" onclick="navigate('quiz')">
-                <img src="img/quiz_icon.svg" alt="" >
+                <i class="fa-solid fa-table-list"></i>
             </button>
         </li>
         <li>
             <button id="nav-hemonucleos" class="inactive" onclick="navigate('hemonucleos')">
-                <img src="img/hemonucleos_icon.svg" alt="" >
+                <i class="fa-solid fa-compass"></i>
             </button>
         </li>
     </ul>
 
     <script src="js/theme.js"></script>
     <script src="js/navigation.js"></script>
+    <script src="https://kit.fontawesome.com/2632c8a787.js" crossorigin="anonymous"></script>
 </body>
 </html>

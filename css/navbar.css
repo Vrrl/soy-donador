@@ -8,14 +8,18 @@
 
     position: fixed;
     bottom: 0;
-    padding: 8px;
+    padding: 12px;
 }
 
 .navbar button{
     padding: 8px;
 }
 
-.navbar img{
-    width: 32px;
-    height: 32px;
+.navbar i{
+    font-size: 26px;
+    color: #81859B;
+}
+
+.navbar button.active i{
+    color: #D44E3B;
 }

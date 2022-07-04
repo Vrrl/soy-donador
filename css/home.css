@@ -11,7 +11,7 @@
 #home-route .card{
 
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 17px;
     letter-spacing: 0.1em;
     display: flex;
@@ -19,15 +19,16 @@
     justify-content: space-between;
 
     cursor: pointer;
-    text-align: center;
+    text-align: left;
+
+    padding: 21px;
 
     
 }
 
 #home-route .card i{
     
-    width: 2rem;
-    height: 2rem;
+    font-size: 1.8rem;
     color: #fff;
 }
 
