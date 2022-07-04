@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme='light'>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soy Donador</title>
+    
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/campaigns.css">
+    <link rel="stylesheet" href="css/template.css">
 </head>
 <body>
-        
+    <header class="header">
+        <div class="back true"><</div>
+        <img src="img/header.svg" alt="">
+        <h1 class="title home">Ola,<br><span>Fares</span></h1>
+    </header>
+    <main>
+        <div id="home-route" class="">
+            <div class="card" id="requests">
+                <p>53</p>
+                <h6>Solicitações de Doação</h6>
+            </div>
+            <div class="card" id="quiz">
+
+                <h6>QUIZ</h6>
+                <div class="bg"></div>
+            </div>
+            <div class="card" id="campaigns">
+
+                <img src="img/hemonucleos_icon.svg" width="28px" alt="" >
+                <h6>Campanhas</h6>
+            </div>
+            <div class="card" id="certificates">
+                <img src="img/hemonucleos_icon.svg" width="28px" alt="" >
+                <h6>Certificados</h6>
+            </div>
+            <div class="card" id="sponsors">
+
+                <img src="img/hemonucleos_icon.svg" width="28px" alt="" >
+                <h6>Apoiadores</h6>
+            </div>
+        </div>
+
+        <div id="campaigns-route" class="current">
+            <div class="card">
+                <div class="info">
+                    <h2>Nome da Campanha</h2>
+                    <small>Ate 22/02/22</small>
+                </div>
+
+                <div class="bg"></div>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <h2>Nome da Campanha</h2>
+                    <small>Ate 22/02/22</small>
+                </div>
+
+                <div class="bg"></div>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <h2>Nome da Campanha</h2>
+                    <small>Ate 22/02/22</small>
+                </div>
+
+                <div class="bg"></div>
+            </div>
+        </div>
+    </main>
+    <ul class="navbar">
+        <li>
+            <button id="nav-sponsor" class="active" onclick="navigate('sponsors')">
+                <img src="img/apoiador_icon.svg" alt="" >
+            </button>
+        </li>
+        <li>
+            <button id="nav-campaigns" class="inactive" onclick="navigate('campaigns')">
+                <img src="img/campanha_icon.svg" alt="" >
+            </button>
+        </li>
+        <li>
+            <button id="nav-home" class="inactive" onclick="navigate('home')">
+                <img src="img/logo.svg" alt="" >
+            </button>
+        </li>
+        <li>
+            <button id="nav-quiz" class="inactive" onclick="navigate('quiz')">
+                <img src="img/quiz_icon.svg" alt="" >
+            </button>
+        </li>
+        <li>
+            <button id="nav-hemonucleos" class="inactive" onclick="navigate('hemonucleos')">
+                <img src="img/hemonucleos_icon.svg" alt="" >
+            </button>
+        </li>
+    </ul>
+
+    <script src="js/theme.js"></script>
+    <script src="js/navigation.js"></script>
 </body>
 </html>

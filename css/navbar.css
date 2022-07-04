@@ -1,0 +1,21 @@
+.navbar{
+    background-color: var(--nav-bg);
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
+}
+
+.navbar button{
+    padding: 8px;
+}
+
+.navbar img{
+    width: 32px;
+    height: 32px;
+}

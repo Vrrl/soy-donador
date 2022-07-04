@@ -1,0 +1,36 @@
+html[data-theme='light']{
+
+    --text-primary: #FFFFFF;
+    --bg: #F5F5FA;
+
+    
+    --nav-bg: rgba(255, 255, 255, 1);
+
+
+    --header-bg: linear-gradient(122.59deg, #E5BD57 0%, #D53B3B 69.5%);
+    --header-text: #FFFCFC;
+    --header-back: #fff;
+
+    
+    --card-bg: linear-gradient(114.31deg, #E59357 0%, #D54E3B 79.06%);
+    --card-shadow: 4px 4px 20px 1px rgba(224, 9, 9, 0.25);
+}
+
+
+html[data-theme='dark']{
+
+    --text-primary: #8a90a7;
+    --bg: #2C304E;
+
+    
+    --nav-bg: rgba(23, 25, 44, 0.75);
+
+
+    --header-bg: linear-gradient(122.59deg, #2C304E 0%, #292E54 0.01%, #202339 69.5%);
+    --header-text: #CB641A;
+    --header-back: #CB641A;
+
+    
+    --card-bg: linear-gradient(180deg, #1E2139 0%, #24273A 100%);
+    --card-shadow: 0px 4px 23px rgba(12, 12, 13, 0.26);
+}

@@ -1,0 +1,86 @@
+#home-route{
+
+    display: grid;
+    height: calc(100vh - 11rem - 7rem);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:  1.5rem;
+    
+}
+
+#home-route .card{
+
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    cursor: pointer;
+    text-align: center;
+
+    
+}
+
+#home-route .card i{
+    
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+}
+
+#home-route .card h6{
+    position: relative;
+    bottom: 0;
+}
+
+#home-route #requests{
+
+    
+}
+
+#home-route #requests p{
+    font-size: 2.5rem;
+    padding: 16px;
+}
+
+#home-route #quiz{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    text-align: left;
+    
+}
+
+#home-route #quiz .frufru{
+    width: 100%;
+    
+}
+
+
+#home-route #quiz > .bg{
+    width: 100%;
+    height: 60%;
+    background: url('../img/quiz_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: -16px;
+    bottom: -16px;
+}
+
+
+
+#home-route #campaigns{
+}
+
+#home-route #certificates{
+}
+
+#home-route #sponsors{
+}
+

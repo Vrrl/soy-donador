@@ -1,0 +1,44 @@
+.header{
+    /* background-image: var(--header-bg); */
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header img{
+    width: 100%;
+    height: 7.5rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.header .home{
+    margin: auto;
+    text-align: center;
+}
+
+.header h1{
+    color: var(--header-text);
+    font-weight: 300;
+}
+
+.header h1 span{
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header .back{
+    color: var(--header-back);
+    display: none;
+    font-size: 2rem;
+    padding: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.header .back.true{
+    color: var(--header-back);
+    display: block;
+}

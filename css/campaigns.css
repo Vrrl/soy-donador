@@ -1,0 +1,9 @@
+#campaigns-route{
+    display: flex;
+    flex-direction: column;
+}
+
+#campaigns-route .card{
+    height: 200px;
+    margin-bottom: 32px;
+}
